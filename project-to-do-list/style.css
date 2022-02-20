@@ -1,0 +1,88 @@
+/*
+  Referências:
+  - https://www.w3schools.com/
+  - https://stackoverflow.com/questions/880512/prevent-text-selection-after-double-click
+  - https://eslint.org/docs/rules/
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Architects Daughter, cursive;
+}
+
+/* body {
+  background-color: rgb(179, 236, 255);
+} */
+
+header {
+  margin-bottom: 10px;
+}
+
+#title {
+  font-family: Acme, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgb(255 , 92 , 51);
+  padding-top: 10px;
+}
+
+#funcionamento {
+  font-size: 14px;
+}
+
+main {
+  background-color: rgb(255 , 255 , 102);
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+#input-area {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+#list-area {
+  margin: 20px 0;
+}
+
+#texto-tarefa {
+  color: rgb(85 , 85 , 85);
+  background-color: rgb(255 , 255 , 150);
+}
+
+#criar-tarefa {
+  background-color: rgb(255 , 255 , 150);
+}
+
+li {
+  list-style: none;
+  padding-left: 5px;
+  border-left: 4px solid rgb(255 , 92 , 51);
+  user-select: none;
+}
+
+.selecionado {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#btn-up , #btn-down {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+button {
+  border-radius: 50px;
+  padding: 2px;
+  background-color: rgb(0 , 179 , 179);
+}
+
+#salvar-tarefas {
+  background-color: teal;
+}

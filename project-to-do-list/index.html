@@ -1,0 +1,44 @@
+<!--
+  Referências:
+  - https://www.w3schools.com/
+  - https://stackoverflow.com/questions/880512/prevent-text-selection-after-double-click
+  - https://eslint.org/docs/rules/
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&display=swap" rel="stylesheet">
+  <title>Lista de Tarefas</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Minha Lista de Tarefas</h1>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+  </header>
+  <main>
+    <div id="input-area">
+      <input type="text" name="texto-tarefa" id="texto-tarefa">
+      <button id="criar-tarefa">Adicionar</button>
+    </div>
+    <div id="list-area">
+      <ol id="lista-tarefas"></ol>
+    </div>
+    <div id="btns-container">
+      <button id="mover-cima" class="button">⬆</button>
+      <button id="mover-baixo" class="button">⬇</button>
+      <button id="remover-selecionado" class="button">❌</button>
+      <button id="apaga-tudo" class="button">Limpar tudo</button>
+      <button id="remover-finalizados" class="button">Limpar finalizados</button>
+      <button id="salvar-tarefas" class="button">Salvar</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
