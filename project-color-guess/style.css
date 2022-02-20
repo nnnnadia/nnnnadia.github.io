@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#title {
+  font-size: 6vw;
+  font-family: Alfa Slab One, cursive;
+  letter-spacing: 0.06em;
+}
+
+#rgb-color {
+  font-size: 4vw;
+}
+
+p {
+  margin: 0.625em 0;
+  font-size: 2vw;
+  font-family: Roboto Mono, monospace;
+}
+
+#mystery-color {
+  display: inline-block;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.2em;
+  border-radius: 50px;
+  border: 5px double black;
+}
+
+#score-board {
+  display: inline-block;
+  top: 2em;
+}
+
+.ball {
+  display: inline-block;
+  width: 1.7em;
+  height: 1.7em;
+  padding: 1.7em;
+  border-radius: 50px;
+  border: 5px double white;
+  margin: 0.3em;
+}
+
+#reset-btn {
+  display: none;
+  position: absolute;
+  background-color: rgba(255 , 255 , 255 , 0.6);
+  width: 100%;
+  height: 7em;
+}
+
+#reset-btn p {
+  padding: 1.7em;
+  width: 32em;
+  height: fit-content;
+  border-radius: 50px;
+  border: 5px double black;
+  margin: auto;
+}
