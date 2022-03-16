@@ -10,11 +10,10 @@ const listaTarefas = document.querySelector('#lista-tarefas');
 // Confere se algum elemento já foi selecionado (tem a classe 'selecionado'), se houver remove a classe, em qualquer caso seleciona o item clicado.
 function selecionaTarefa(event) {
   const antigoSelecionado = document.querySelector('.selecionado');
-  // event.target.classList.add('selecionado'); fica melhor antes, mas não passa o requisito.
+  event.target.classList.add('selecionado');
   if (antigoSelecionado !== null) {
     antigoSelecionado.classList.remove('selecionado');
   }
-  event.target.classList.add('selecionado'); // adicionando a class aqui não dá a opção para a pessoa usuária deselecionar.
 }
 
 // Se o elemento não estava marcado como 'completed' passa a ser e se era marcado deixa de ser.
