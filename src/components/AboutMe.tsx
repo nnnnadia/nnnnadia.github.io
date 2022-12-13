@@ -5,7 +5,12 @@ import PersonalInfo from './PersonalInfo';
 
 export default function AboutMe() {
   return (
-    <Stack direction="row" justifyContent="space-evenly" spacing={12}>
+    <Stack
+      direction="row"
+      justifyContent="space-evenly"
+      spacing={12}
+      marginTop={window.innerHeight * 0.035}
+    >
       <ContactInfo />
       <PersonalInfo />
     </Stack>

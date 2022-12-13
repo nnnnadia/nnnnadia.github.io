@@ -9,15 +9,19 @@ import Projects from './components/Projects';
 export default function App() {
   const [onAboutMe, setOnAboutMe] = useState(true);
   return (
-    <Stack className="App" alignItems="center" justifyContent="center" height={window.innerHeight}>
+    <div className="App">
       <Collapse in={onAboutMe}>
-        <AboutMe />
-        <ArrowToProjects setOnAboutMe={setOnAboutMe} />
+        <Stack alignItems="center" justifyContent="space-between" height={window.innerHeight}>
+          <AboutMe />
+          <ArrowToProjects setOnAboutMe={setOnAboutMe} />
+        </Stack>
       </Collapse>
       <Collapse in={!onAboutMe}>
-        <ArrowToAboutMe setOnAboutMe={setOnAboutMe} />
-        <Projects />
+        <Stack alignItems="center" height={window.innerHeight}>
+          <ArrowToAboutMe setOnAboutMe={setOnAboutMe} />
+          <Projects />
+        </Stack>
       </Collapse>
-    </Stack>
+    </div>
   );
 }
