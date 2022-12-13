@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconButton } from '@mui/material';
-import { ArrowDropDownRounded } from '@mui/icons-material';
+import { ArrowDropUpRounded } from '@mui/icons-material';
 
 export default function ArrowToProjects(props: { setOnAboutMe: (b: boolean) => void }) {
   return (
@@ -8,7 +8,7 @@ export default function ArrowToProjects(props: { setOnAboutMe: (b: boolean) => v
       sx={{ marginBottom: '1em' }}
       onClick={() => props.setOnAboutMe(false) }
     >
-      <ArrowDropDownRounded sx={{ fontSize: '100px' }} />
+      <ArrowDropUpRounded sx={{ fontSize: '100px' }} />
     </IconButton>
   );
 }
