@@ -1,65 +1,10 @@
-import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Button, Card, CardActions, CardContent, CardMedia, Grid, Link, Typography } from '@mui/material';
 import React, { useState } from 'react';
+import projectService from '../service/projectService';
 
 export default function ProjectsResume() {
-  const [projects, setProjects] = useState([
-    {
-      id: 1,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-    {
-      id: 2,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-    {
-      id: 3,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-    {
-      id: 4,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-    {
-      id: 5,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-    {
-      id: 6,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-    {
-      id: 7,
-      title: 'Trybe Futebol Clube',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.',
-      printUrl: '',
-      projectUrl: '',
-      repositoryUrl: '',
-    },
-  ]);
+  const [projects, setProjects] = useState(projectService.getAll());
+
   return (
     <Grid container justifyContent="center" alignItems="center" spacing={4}>
       {projects.map((project) => <Grid item key={project.id}>
@@ -79,8 +24,22 @@ export default function ProjectsResume() {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Projeto</Button>
-            <Button size="small">Repositório</Button>
+            <Button size="small">
+              <Link
+                href={project.projectUrl}
+                underline="none"
+              >
+                Projeto
+              </Link>
+            </Button>
+            <Button size="small">
+              <Link
+                href={project.repositoryUrl}
+                underline="none"
+              >
+                Repositório
+              </Link>
+            </Button>
           </CardActions>
         </Card>
       </Grid>)}

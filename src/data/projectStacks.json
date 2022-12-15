@@ -1,0 +1,26 @@
+[
+  {
+    "projectId": 0,
+    "stackId": 0
+  },
+  {
+    "projectId": 0,
+    "stackId": 1
+  },
+  {
+    "projectId": 1,
+    "stackId": 2
+  },
+  {
+    "projectId": 2,
+    "stackId": 0
+  },
+  {
+    "projectId": 2,
+    "stackId": 1
+  },
+  {
+    "projectId": 2,
+    "stackId": 2
+  }
+]
