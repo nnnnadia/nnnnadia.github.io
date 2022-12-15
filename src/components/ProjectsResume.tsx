@@ -29,7 +29,7 @@ export default function ProjectsResume() {
           <CardActions>
             <Stack direction="row" width="100%" justifyContent="center">
               <ButtonGroup variant="outlined">
-                <Button size="small" href={project.projectUrl}>
+                <Button size="small" href={project.projectUrl} disabled={!project.projectUrl}>
                   Projeto
                 </Button>
                 <Button size="small" href={project.repositoryUrl}>

@@ -22,5 +22,37 @@
   {
     "projectId": 2,
     "stackId": 2
+  },
+  {
+    "projectId": 3,
+    "stackId": 0
+  },
+  {
+    "projectId": 3,
+    "stackId": 1
+  },
+  {
+    "projectId": 3,
+    "stackId": 2
+  },
+  {
+    "projectId": 4,
+    "stackId": 0
+  },
+  {
+    "projectId": 4,
+    "stackId": 1
+  },
+  {
+    "projectId": 4,
+    "stackId": 2
+  },
+  {
+    "projectId": 5,
+    "stackId": 2
+  },
+  {
+    "projectId": 5,
+    "stackId": 3
   }
 ]

@@ -29,29 +29,29 @@
   {
     "id": 3,
     "title": "Color Guess",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "description": "Nesta aplicação é possível jogar um jogo de adivinhação de cores e sua pontuação é atualizada de acordo com os acertos.",
+    "conclusionDate": "20/02/2022",
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-color-guess/blob/main/color-guess-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybe-color-guess/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-color-guess"
   },
   {
     "id": 4,
     "title": "Trybewarts",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes podem enviar seus feedbacks sobre ela.",
     "conclusionDate": "04/03/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "printUrl": "https://github.com/nnnnadia/projeto-trybewarts/blob/main/trybewarts-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybewarts/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybewarts"
   },
   {
     "id": 5,
     "title": "JavaScpipt Testes Unitários",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Implementação de várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.",
     "conclusionDate": "15/03/2022",
-    "printUrl": "",
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-js-unit-tests/blob/main/js-unit-tests-print.png?raw=true",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-js-unit-tests"
   },
   {
     "id": 6,
