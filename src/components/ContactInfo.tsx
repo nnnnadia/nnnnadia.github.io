@@ -29,10 +29,10 @@ export default function ContactInfo() {
           </Typography>
         </Box>
         <ButtonGroup variant="text" >
-          <IconButton>
+          <IconButton href="https://github.com/nnnnadia">
             <GitHubIcon fontSize="large" sx={{ color: 'white' }} />
           </IconButton>
-          <IconButton>
+          <IconButton href="https://www.linkedin.com/in/nadiadutra/">
             <LinkedInIcon fontSize="large" sx={{ color: 'white' }} />
           </IconButton>
           <IconButton>
