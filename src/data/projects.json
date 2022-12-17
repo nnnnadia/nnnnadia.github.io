@@ -3,7 +3,7 @@
     "id": 0,
     "title": "Lessons Learned",
     "description": "Meu primeiro projeto na Trybe. Site em HTML e CSS puro. Antes de realizarmos o projeto aprendemos sobre o UNIX e como utilizar comandos no bash, além de noções de como se usa o Git e o GitHub",
-    "conclusionDate": "08/02/2022",
+    "conclusionDate": "02/08/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybe-lessons-learned/blob/main/lessons-learned-print.png?raw=true",
     "projectUrl": "https://nnnnadia.github.io/projeto-trybe-lessons-learned/",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-lessons-learned"
@@ -12,7 +12,7 @@
     "id": 1,
     "title": "Playground Functions",
     "description": "A partir dos requisitos foram implementadas funções para o correto comportamento de cada uma delas e avaliação de testes.",
-    "conclusionDate": "15/02/2022",
+    "conclusionDate": "02/15/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybe-playground-functions/blob/main/playground-functions-print.png?raw=true",
     "projectUrl": "https://nnnnadia.github.io/projeto-trybe-playground-functions/",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-playground-functions"
@@ -21,7 +21,7 @@
     "id": 2,
     "title": "Pixels Art",
     "description": "Neste projeto a proposta foi criar um paint com HTML, CSS e JS.",
-    "conclusionDate": "24/02/2022",
+    "conclusionDate": "02/24/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybe-pixels-art/blob/main/pixels-art-print.png?raw=true",
     "projectUrl": "https://nnnnadia.github.io/projeto-trybe-pixels-art/",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-pixels-art"
@@ -30,7 +30,7 @@
     "id": 3,
     "title": "Color Guess",
     "description": "Nesta aplicação é possível jogar um jogo de adivinhação de cores e sua pontuação é atualizada de acordo com os acertos.",
-    "conclusionDate": "20/02/2022",
+    "conclusionDate": "02/20/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybe-color-guess/blob/main/color-guess-print.png?raw=true",
     "projectUrl": "https://nnnnadia.github.io/projeto-trybe-color-guess/",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-color-guess"
@@ -39,7 +39,7 @@
     "id": 4,
     "title": "Trybewarts",
     "description": "Página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes podem enviar seus feedbacks sobre ela.",
-    "conclusionDate": "04/03/2022",
+    "conclusionDate": "03/04/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybewarts/blob/main/trybewarts-print.png?raw=true",
     "projectUrl": "https://nnnnadia.github.io/projeto-trybewarts/",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybewarts"
@@ -48,7 +48,7 @@
     "id": 5,
     "title": "JavaScpipt Testes Unitários",
     "description": "Implementação de várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.",
-    "conclusionDate": "15/03/2022",
+    "conclusionDate": "03/15/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybe-js-unit-tests/blob/main/js-unit-tests-print.png?raw=true",
     "projectUrl": "",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-js-unit-tests"
@@ -57,7 +57,7 @@
     "id": 6,
     "title": "Zoo Function",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "24/03/2022",
+    "conclusionDate": "03/24/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -66,7 +66,7 @@
     "id": 7,
     "title": "Carrinho de Compras",
     "description": "Neste projeto desenvolvi um carrinho de compras dinâmico consumindo dados da API do Mercado Livre.",
-    "conclusionDate": "07/04/2022",
+    "conclusionDate": "04/07/2022",
     "printUrl": "https://github.com/nnnnadia/projeto-trybe-shopping-cart/blob/main/shopping-cart-print.png?raw=true",
     "projectUrl": "https://nnnnadia.github.io/projeto-trybe-shopping-cart/",
     "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-shopping-cart"
@@ -75,7 +75,7 @@
     "id": 8,
     "title": "Solar System",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "13/04/2022",
+    "conclusionDate": "04/13/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -84,7 +84,7 @@
     "id": 9,
     "title": "Tryunfo",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "20/05/2022",
+    "conclusionDate": "05/20/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -93,7 +93,7 @@
     "id": 10,
     "title": "TrybeTunes",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "27/05/2022",
+    "conclusionDate": "05/27/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -102,7 +102,7 @@
     "id": 11,
     "title": "Front-End Online Store",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "07/06/202",
+    "conclusionDate": "06/07/202",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -111,7 +111,7 @@
     "id": 12,
     "title": "Testes em React",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "21/06/2022",
+    "conclusionDate": "06/21/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -120,7 +120,7 @@
     "id": 13,
     "title": "Trybe Wallet",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "04/07/2022",
+    "conclusionDate": "07/04/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -129,7 +129,7 @@
     "id": 14,
     "title": "Jogo de Trivia",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "11/07/2022",
+    "conclusionDate": "07/11/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -138,7 +138,7 @@
     "id": 15,
     "title": "Star Wars Database",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "19/07/2022",
+    "conclusionDate": "07/19/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -147,7 +147,7 @@
     "id": 16,
     "title": "App de Receitas",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "02/08/2022",
+    "conclusionDate": "08/02/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -156,7 +156,7 @@
     "id": 17,
     "title": "Docker To-Do List",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "10/08/2022",
+    "conclusionDate": "08/10/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -165,7 +165,7 @@
     "id": 18,
     "title": "All For One",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "17/08/2022",
+    "conclusionDate": "08/17/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -174,7 +174,7 @@
     "id": 19,
     "title": "One For All",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "25/08/2022",
+    "conclusionDate": "08/25/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -183,7 +183,7 @@
     "id": 20,
     "title": "Talker Manager",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "05/09/2022",
+    "conclusionDate": "09/05/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -192,7 +192,7 @@
     "id": 21,
     "title": "Store Manager",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "21/09/2022",
+    "conclusionDate": "09/21/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -201,7 +201,7 @@
     "id": 22,
     "title": "API de Blogs",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "04/11/2022",
+    "conclusionDate": "11/04/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -210,7 +210,7 @@
     "id": 23,
     "title": "Trybesmith",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "16/11/2022",
+    "conclusionDate": "11/16/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -219,7 +219,7 @@
     "id": 24,
     "title": "Trybers and Dragons",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "29/11/2022",
+    "conclusionDate": "11/29/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
@@ -228,7 +228,7 @@
     "id": 25,
     "title": "Trybe Futebol Clube",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "14/12/2022",
+    "conclusionDate": "12/14/2022",
     "printUrl": "",
     "projectUrl": "",
     "repositoryUrl": ""
