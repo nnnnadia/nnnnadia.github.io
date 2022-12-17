@@ -1,5 +1,5 @@
 import { Chip, FormControlLabel, Stack, Switch } from '@mui/material';
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import StacksContext from '../context/StacksContext';
 import stackService from '../service/stacksService';
 
@@ -32,6 +32,11 @@ export default function StackChips() {
       setStacksSelected([...stacksSelected, stackId]);
     }
   };
+
+  useEffect(() => {
+    if (stacksSelected.length === myStacks.length) setAllChecked(true);
+    if (stacksSelected.length === 0) setAllChecked(false);
+  }, [stacksSelected, myStacks.length])
 
   return (
     <>
