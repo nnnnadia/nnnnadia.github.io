@@ -1,14 +1,23 @@
 import { Button, ButtonGroup, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import { Stack } from '@mui/system';
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import StacksContext from '../context/StacksContext';
 import projectService from '../service/projectService';
+import ProjectStacksService from '../service/ProjectStacksService';
 
 export default function ProjectsResume() {
+  const { stacksSelected } = useContext(StacksContext);
+
   const [projects, setProjects] = useState(projectService.getAll());
+
+  const isProjectStackSelected = (projectId: number) => {
+    const projectStacks = ProjectStacksService.getProjectStacks(projectId);
+    return stacksSelected.some((stack) => projectStacks.includes(stack));
+  }
 
   return (
     <Grid container justifyContent="center" alignItems="center" spacing={4}>
-      {projects.map((project) => <Grid item key={project.id}>
+      {projects.map((project) => <Grid item key={project.id} hidden={!isProjectStackSelected(project.id)}>
         <Card sx={{ maxWidth: 345 }}>
           <CardActionArea href={project.projectUrl}>
             <CardMedia
