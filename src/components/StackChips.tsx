@@ -9,10 +9,12 @@ export default function StackChips() {
   const [myStacks, setMyStacks] = useState(stackService.getAll());
   const [allChecked, setAllChecked] = useState(true);
 
-  const isStackSelected = (stackId: number) => {
-    if (stacksNotSelected.includes(stackId)) return 'outlined';
-    return 'filled';
-  };
+  const isStackSelected = (stackId: number) => !stacksNotSelected.includes(stackId);
+
+  const whichChipVariant = (stackId: number): 'filled' | 'outlined' => {
+    if (isStackSelected(stackId)) return 'filled';
+    return 'outlined';
+  }
 
   const handleAllChecked = () => {
     if (allChecked) {
@@ -34,7 +36,7 @@ export default function StackChips() {
           key={stack.id}
           label={stack.name}
           color={"primary"}
-          variant={isStackSelected(stack.id)}
+          variant={whichChipVariant(stack.id)}
           // onClick={}
         />))}
       </Stack>
