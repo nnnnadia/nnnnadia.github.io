@@ -146,11 +146,11 @@
   {
     "id": 16,
     "title": "App de Receitas",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "No app é possível procurar uma receita específica, explorar receitas baseado em diferentes critérios, favoritar e fazer as receitas, entre outras funcionalidades.",
     "conclusionDate": "08/02/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-recipes-app/blob/main/recipes-app-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybe-recipes-app/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-recipes-app"
   },
   {
     "id": 17,

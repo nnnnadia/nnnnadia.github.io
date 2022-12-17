@@ -106,5 +106,33 @@
   {
     "projectId": 9,
     "stackId": 4
+  },
+  {
+    "projectId": 16,
+    "stackId": 0
+  },
+  {
+    "projectId": 16,
+    "stackId": 1
+  },
+  {
+    "projectId": 16,
+    "stackId": 2
+  },
+  {
+    "projectId": 16,
+    "stackId": 3
+  },
+  {
+    "projectId": 16,
+    "stackId": 4
+  },
+  {
+    "projectId": 16,
+    "stackId": 5
+  },
+  {
+    "projectId": 16,
+    "stackId": 6
   }
 ]
