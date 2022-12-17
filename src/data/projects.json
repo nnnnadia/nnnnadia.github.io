@@ -55,12 +55,12 @@
   },
   {
     "id": 6,
-    "title": "Zoo Function",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "title": "Zoo Functions",
+    "description": "Implementação de várias funções para atender aos requisitos propostos e garantir que todas as funções passem nos testes unitários.",
     "conclusionDate": "03/24/2022",
     "printUrl": "",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-zoo-functions"
   },
   {
     "id": 7,
@@ -74,11 +74,11 @@
   {
     "id": 8,
     "title": "Solar System",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Site estático em React para visualizar todos os planetas do sistema solar e todas as cartas com informações sobre missões espaciais. ",
     "conclusionDate": "04/13/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-solar-system/blob/main/solar-system-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybe-solar-system/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-solar-system"
   },
   {
     "id": 9,
