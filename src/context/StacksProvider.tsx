@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
+import stackService from '../service/stacksService';
 import StacksContext from './StacksContext';
 
 export default function StacksProvider({ children }: { children: React.ReactNode }) {
-  const [stacksNotSelected, setStacksNotSelected] = useState<number[]>([]);
+  const [stacksSelected, setStacksSelected] = useState<number[]>(stackService.getEveryStackId());
 
   const value = {
-    stacksNotSelected,
-    setStacksNotSelected,
+    stacksSelected,
+    setStacksSelected,
   };
 
   return <StacksContext.Provider value={value}>{children}</StacksContext.Provider>;

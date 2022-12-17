@@ -4,12 +4,12 @@ import StacksContext from '../context/StacksContext';
 import stackService from '../service/stacksService';
 
 export default function StackChips() {
-  const { stacksNotSelected, setStacksNotSelected } = useContext(StacksContext);
+  const { stacksSelected, setStacksSelected } = useContext(StacksContext);
 
   const [myStacks, setMyStacks] = useState(stackService.getAll());
   const [allChecked, setAllChecked] = useState(true);
 
-  const isStackSelected = (stackId: number) => !stacksNotSelected.includes(stackId);
+  const isStackSelected = (stackId: number) => stacksSelected.includes(stackId);
 
   const whichChipVariant = (stackId: number): 'filled' | 'outlined' => {
     if (isStackSelected(stackId)) return 'filled';
@@ -17,17 +17,21 @@ export default function StackChips() {
   }
 
   const handleAllChecked = () => {
-    if (allChecked) {
-      setStacksNotSelected(myStacks.map((stack) => stack.id));
+    if (!allChecked) { // se NÃO estiverem todas selecionadas
+      setStacksSelected(stackService.getEveryStackId());
     } else {
-      setStacksNotSelected([]);
+      setStacksSelected([]);
     }
-    setAllChecked(!allChecked);
+    setAllChecked(!allChecked); // agora estarão
   };
 
-  // const handleStackSelection = (stackId: number) => {
-
-  // };
+  const handleStackSelection = (stackId: number) => {
+    if (isStackSelected(stackId)) {
+      setStacksSelected(stacksSelected.filter((stack) => stack !== stackId));
+    } else {
+      setStacksSelected([...stacksSelected, stackId]);
+    }
+  };
 
   return (
     <>
@@ -37,7 +41,7 @@ export default function StackChips() {
           label={stack.name}
           color={"primary"}
           variant={whichChipVariant(stack.id)}
-          // onClick={}
+          onClick={() => handleStackSelection(stack.id)}
         />))}
       </Stack>
       <FormControlLabel

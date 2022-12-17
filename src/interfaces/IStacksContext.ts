@@ -1,4 +1,4 @@
 export default interface IStacksContext {
-  stacksNotSelected: number[];
-  setStacksNotSelected(stacks: number[]): void;
+  stacksSelected: number[];
+  setStacksSelected(stacks: number[]): void;
 }
