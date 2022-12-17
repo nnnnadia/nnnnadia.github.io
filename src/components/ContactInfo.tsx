@@ -7,17 +7,25 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import React from 'react';
 
 export default function ContactInfo() {
-  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
+  const [anchorElWA, setAnchorElWA] = React.useState<HTMLButtonElement | null>(null);
+  const [anchorElT, setAnchorElT] = React.useState<HTMLButtonElement | null>(null);
 
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
+  const handleClickWA = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorElWA(event.currentTarget);
   };
-  const handleClose = () => {
-    setAnchorEl(null);
+  const handleCloseWA = () => {
+    setAnchorElWA(null);
   }
 
-  const open = Boolean(anchorEl);
-  const id = open ? 'simple-popover' : undefined;
+  const handleClickT = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorElT(event.currentTarget);
+  };
+  const handleCloseT = () => {
+    setAnchorElT(null);
+  }
+
+  const openWA = Boolean(anchorElWA);
+  const openT = Boolean(anchorElT);
 
   return (
     <Paper
@@ -47,14 +55,13 @@ export default function ContactInfo() {
           <IconButton href="https://www.linkedin.com/in/nadiadutra/">
             <LinkedInIcon fontSize="large" sx={{ color: 'white' }} />
           </IconButton>
-          <IconButton aria-describedby={id} onClick={handleClick}>
+          <IconButton onClick={handleClickWA}>
             <WhatsAppIcon fontSize="large" sx={{ color: 'white' }} />
           </IconButton>
           <Popover
-            id={id}
-            open={open}
-            anchorEl={anchorEl}
-            onClickCapture={handleClose}
+            open={openWA}
+            anchorEl={anchorElWA}
+            onClickCapture={handleCloseWA}
             anchorOrigin={{
               vertical: 'center',
               horizontal: 'center',
@@ -66,9 +73,24 @@ export default function ContactInfo() {
           >
             <img alt="WhatsApp contact QR code" src="https://github.com/nnnnadia/nnnnadia.github.io/blob/main/src/images/whatsapp-contact-qr.jpeg?raw=true" width="100em" height="100em" />
           </Popover>
-          <IconButton>
+          <IconButton onClick={handleClickT}>
             <TelegramIcon fontSize="large" sx={{ color: 'white' }} />
           </IconButton>
+          <Popover
+            open={openT}
+            anchorEl={anchorElT}
+            onClickCapture={handleCloseT}
+            anchorOrigin={{
+              vertical: 'center',
+              horizontal: 'center',
+            }}
+            transformOrigin={{
+              vertical: 'bottom',
+              horizontal: 'center',
+            }}
+          >
+            <img alt="Telegram contact QR code" src="https://github.com/nnnnadia/nnnnadia.github.io/blob/main/src/images/telegram-contact-qr.jpeg?raw=true" width="100em" height="100em" />
+          </Popover>
           <IconButton>
             <EmailIcon fontSize="large" sx={{ color: 'white' }} />
           </IconButton>
