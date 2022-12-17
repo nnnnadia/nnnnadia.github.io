@@ -54,5 +54,21 @@
   {
     "projectId": 5,
     "stackId": 3
+  },
+  {
+    "projectId": 7,
+    "stackId": 0
+  },
+  {
+    "projectId": 7,
+    "stackId": 1
+  },
+  {
+    "projectId": 7,
+    "stackId": 2
+  },
+  {
+    "projectId": 7,
+    "stackId": 3
   }
 ]

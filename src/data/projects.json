@@ -65,11 +65,11 @@
   {
     "id": 7,
     "title": "Carrinho de Compras",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Neste projeto desenvolvi um carrinho de compras dinâmico consumindo dados da API do Mercado Livre.",
     "conclusionDate": "07/04/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-shopping-cart/blob/main/shopping-cart-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybe-shopping-cart/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-shopping-cart"
   },
   {
     "id": 8,
