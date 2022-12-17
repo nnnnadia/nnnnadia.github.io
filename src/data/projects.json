@@ -83,11 +83,11 @@
   {
     "id": 9,
     "title": "Tryunfo",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Jogo de cartas no estilo Super Trunfo feito em React.",
     "conclusionDate": "05/20/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "printUrl": "https://github.com/nnnnadia/projeto-tryunfo/blob/main/tryunfo-print.png?raw=true",
+    "projectUrl": "nnnnadia.github.io/projeto-tryunfo/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-tryunfo"
   },
   {
     "id": 10,

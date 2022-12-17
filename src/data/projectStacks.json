@@ -90,5 +90,21 @@
   {
     "projectId": 8,
     "stackId": 4
+  },
+  {
+    "projectId": 9,
+    "stackId": 0
+  },
+  {
+    "projectId": 9,
+    "stackId": 1
+  },
+  {
+    "projectId": 9,
+    "stackId": 2
+  },
+  {
+    "projectId": 9,
+    "stackId": 4
   }
 ]
