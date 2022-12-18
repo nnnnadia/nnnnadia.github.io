@@ -101,11 +101,11 @@
   {
     "id": 11,
     "title": "Front-End Online Store",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
-    "conclusionDate": "06/07/202",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "description": "Versão simplificada de uma loja online.",
+    "conclusionDate": "06/07/2022",
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-front-end-online-store/blob/main/frontend-online-store-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybe-front-end-online-store/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-front-end-online-store"
   },
   {
     "id": 12,
