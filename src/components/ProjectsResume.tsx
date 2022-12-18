@@ -1,12 +1,12 @@
 import { Button, ButtonGroup, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import { Stack } from '@mui/system';
 import React, { useContext, useState } from 'react';
-import StacksContext from '../context/StacksContext';
+import Context from '../context/Context';
 import projectService from '../service/projectService';
 import ProjectStacksService from '../service/ProjectStacksService';
 
 export default function ProjectsResume() {
-  const { stacksSelected } = useContext(StacksContext);
+  const { stacksSelected } = useContext(Context);
 
   const [projects, setProjects] = useState(projectService.getAll());
 

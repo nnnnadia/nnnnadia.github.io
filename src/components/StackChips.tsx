@@ -1,10 +1,10 @@
 import { Chip, FormControlLabel, Stack, Switch } from '@mui/material';
 import React, { useContext, useEffect, useState } from 'react';
-import StacksContext from '../context/StacksContext';
+import Context from '../context/Context';
 import stackService from '../service/stacksService';
 
 export default function StackChips() {
-  const { stacksSelected, setStacksSelected } = useContext(StacksContext);
+  const { stacksSelected, setStacksSelected } = useContext(Context);
 
   const [myStacks, setMyStacks] = useState(stackService.getAll());
   const [allChecked, setAllChecked] = useState(true);

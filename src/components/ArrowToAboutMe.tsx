@@ -5,6 +5,7 @@ import { ArrowDropUpRounded } from '@mui/icons-material';
 export default function ArrowToAboutMe(props: { setOnAboutMe: (b: boolean) => void }) {
   return (
     <IconButton
+      color='secondary'
       sx={{ margin: '1em' }}
       onClick={() => props.setOnAboutMe(true) }
     >

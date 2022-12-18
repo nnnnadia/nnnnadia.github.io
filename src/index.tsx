@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import StacksProvider from './context/StacksProvider';
+import Provider from './context/Provider';
+import ColorProvider from './theme/ThemeProvider';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <StacksProvider>
-    <App />
-  </StacksProvider>
+  <Provider>
+    <ColorProvider>
+      <App />
+    </ColorProvider>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
