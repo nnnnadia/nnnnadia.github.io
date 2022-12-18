@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Collapse, Fab, Stack } from '@mui/material';
+import { Collapse, Container, Fab, Stack } from '@mui/material';
 import ArrowToProjects from './components/ArrowToProjects';
 import './App.css';
 import AboutMe from './components/AboutMe';
@@ -12,7 +12,7 @@ export default function App() {
   const { mode, setMode } = useContext(Context);
   const [onAboutMe, setOnAboutMe] = useState(true);
   return (
-    <div className="App">
+    <Container>
       <Fab
         onClick={mode === 'light' ? () => setMode('dark') : () => setMode('light')}
         color="secondary"
@@ -35,6 +35,6 @@ export default function App() {
           <Projects />
         </Stack>
       </Collapse>
-    </div>
+    </Container>
   );
 }

@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Provider from './context/Provider';
 import ColorProvider from './theme/ThemeProvider';
+import { CssBaseline } from '@mui/material';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,6 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <Provider>
     <ColorProvider>
+      <CssBaseline />
       <App />
     </ColorProvider>
   </Provider>
