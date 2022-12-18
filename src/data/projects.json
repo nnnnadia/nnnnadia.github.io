@@ -92,11 +92,11 @@
   {
     "id": 10,
     "title": "TrybeTunes",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
     "conclusionDate": "05/27/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": ""
+    "printUrl": "https://github.com/nnnnadia/projeto-trybetunes/blob/main/trybetunes-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybetunes/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybetunes"
   },
   {
     "id": 11,
