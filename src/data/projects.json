@@ -119,11 +119,11 @@
   {
     "id": 13,
     "title": "Trybe Wallet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Carteira de controle de gastos com conversor de moedas.",
     "conclusionDate": "07/04/2022",
     "printUrl": "",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybewallet"
   },
   {
     "id": 14,
