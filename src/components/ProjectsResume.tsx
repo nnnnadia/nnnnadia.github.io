@@ -19,38 +19,45 @@ export default function ProjectsResume() {
     <Grid container justifyContent="center" alignItems="center" spacing={4}>
       {projects
         .sort((a, b) => Date.parse(b.conclusionDate) - Date.parse(a.conclusionDate))
-        .map((project) => <Grid item key={project.id} hidden={!isProjectStackSelected(project.id)}>
-          <Card sx={{ maxWidth: 345 }}>
-            <CardActionArea href={project.projectUrl}>
-              <CardMedia
-                component="img"
-                height="140"
-                image={project.printUrl}
-                alt="project's print screen"
-              />
-            </CardActionArea>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                {project.title}
-              </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ height: '6em' }}>
-                {project.description}
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Stack direction="row" width="100%" justifyContent="center">
-                <ButtonGroup variant="contained" color="primary">
-                  <Button size="small" href={project.projectUrl} disabled={!project.projectUrl}>
-                    Projeto
-                  </Button>
-                  <Button size="small" href={project.repositoryUrl}>
-                    Repositório
-                  </Button>
-                </ButtonGroup>
-              </Stack>
-            </CardActions>
-          </Card>
-        </Grid>)
+        .map((project) => {
+          const conclusionDateAsDate = new Date(project.conclusionDate);
+          const translatedDate = `${conclusionDateAsDate.getDate()}/${conclusionDateAsDate.getMonth()}/${conclusionDateAsDate.getFullYear()}`
+          return (
+            <Grid item key={project.id} hidden={!isProjectStackSelected(project.id)}>
+              <Card sx={{ maxWidth: 345 }}>
+                <CardActionArea href={project.projectUrl}>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image={project.printUrl}
+                    alt="project's print screen"
+                  />
+                </CardActionArea>
+                <CardContent>
+                  <Typography variant="caption">{translatedDate}</Typography>
+                  <Typography variant="h5" component="div">
+                    {project.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ height: '6em' }}>
+                    {project.description}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Stack direction="row" width="100%" justifyContent="center">
+                    <ButtonGroup variant="contained" color="primary">
+                      <Button size="small" href={project.projectUrl} disabled={!project.projectUrl}>
+                        Projeto
+                      </Button>
+                      <Button size="small" href={project.repositoryUrl}>
+                        Repositório
+                      </Button>
+                    </ButtonGroup>
+                  </Stack>
+                </CardActions>
+              </Card>
+            </Grid>
+          );
+        })
       }
     </Grid>
   );

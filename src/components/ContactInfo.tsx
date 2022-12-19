@@ -43,6 +43,7 @@ export default function ContactInfo() {
           <Typography
             variant="subtitle1"
             textTransform="uppercase"
+            textAlign="center"
             gutterBottom
           >
             Developer Full Stack

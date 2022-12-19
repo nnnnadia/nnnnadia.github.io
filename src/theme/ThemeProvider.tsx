@@ -1,5 +1,5 @@
 import { PaletteMode } from '@mui/material';
-import { amber, blueGrey, grey, lightBlue } from '@mui/material/colors';
+import { blueGrey, grey } from '@mui/material/colors';
 import { createTheme, ThemeOptions, ThemeProvider } from '@mui/material/styles';
 import React, { useContext } from 'react';
 import Context from '../context/Context';
