@@ -196,6 +196,34 @@
     "stackId": 6
   },
   {
+    "projectId": 15,
+    "stackId": 0
+  },
+  {
+    "projectId": 15,
+    "stackId": 1
+  },
+  {
+    "projectId": 15,
+    "stackId": 2
+  },
+  {
+    "projectId": 15,
+    "stackId": 3
+  },
+  {
+    "projectId": 15,
+    "stackId": 4
+  },
+  {
+    "projectId": 15,
+    "stackId": 5
+  },
+  {
+    "projectId": 15,
+    "stackId": 7
+  },
+  {
     "projectId": 16,
     "stackId": 0
   },
@@ -222,5 +250,9 @@
   {
     "projectId": 16,
     "stackId": 7
+  },
+  {
+    "projectId": 16,
+    "stackId": 8
   }
 ]
