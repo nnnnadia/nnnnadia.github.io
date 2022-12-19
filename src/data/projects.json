@@ -128,11 +128,11 @@
   {
     "id": 14,
     "title": "Jogo de Trivia",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux.",
     "conclusionDate": "07/11/2022",
     "printUrl": "",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-trivia-react-redux"
   },
   {
     "id": 15,
