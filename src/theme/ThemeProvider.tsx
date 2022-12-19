@@ -13,10 +13,10 @@ export default function ColorProvider({ children }: { children: React.ReactNode 
       ...(mode === 'light'
         ? {
           primary: {
-            main: '#1b5e1f'
+            main: '#5e1b5a',
           },
           secondary: {
-            main: '#5e1b5a'
+            main: '#1b5e1f',
           },
           background: {
             default: blueGrey[50],
@@ -24,10 +24,10 @@ export default function ColorProvider({ children }: { children: React.ReactNode 
         }
         : {
           primary: {
-            main: '#5e1b5a'
+            main: '#1b5e1f',
           },
           secondary: {
-            main: '#1b5e1f'
+            main: '#5e1b5a',
           },
           background: {
             default: grey[900],
