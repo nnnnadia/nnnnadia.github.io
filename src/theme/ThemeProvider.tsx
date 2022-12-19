@@ -1,5 +1,5 @@
 import { PaletteMode } from '@mui/material';
-import { amber, grey, lightBlue } from '@mui/material/colors';
+import { amber, blueGrey, grey, lightBlue } from '@mui/material/colors';
 import { createTheme, ThemeOptions, ThemeProvider } from '@mui/material/styles';
 import React, { useContext } from 'react';
 import Context from '../context/Context';
@@ -12,14 +12,26 @@ export default function ColorProvider({ children }: { children: React.ReactNode 
       mode,
       ...(mode === 'light'
         ? {
-          primary: lightBlue,
-          secondary: amber,
+          primary: {
+            main: '#1b5e1f'
+          },
+          secondary: {
+            main: '#5e1b5a'
+          },
+          background: {
+            default: blueGrey[50],
+          }
         }
         : {
-          primary: amber,
-          secondary: lightBlue,
+          primary: {
+            main: '#5e1b5a'
+          },
+          secondary: {
+            main: '#1b5e1f'
+          },
           background: {
             default: grey[900],
+            paper: '#000'
           }
         }
       ),
