@@ -110,11 +110,11 @@
   {
     "id": 12,
     "title": "Testes em React",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Testes para uma aplicação React já existente, utilizando Jest e a biblioteca React Testing Library.",
     "conclusionDate": "06/21/2022",
     "printUrl": "",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-react-testing-library"
   },
   {
     "id": 13,
