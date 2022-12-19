@@ -40,11 +40,17 @@ export default function StackChips() {
 
   return (
     <>
-      <Stack direction="row" spacing={1}>
+      <Stack
+        direction="row"
+        flexWrap="wrap"
+        justifyContent="center"
+        spacing={1}
+      >
         {myStacks.map((stack) => (<Chip
           key={stack.id}
           label={stack.name}
           color={"primary"}
+          sx={{ marginBottom: '.5em' }}
           variant={whichChipVariant(stack.id)}
           onClick={() => handleStackSelection(stack.id)}
         />))}
