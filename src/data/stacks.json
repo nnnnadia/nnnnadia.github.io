@@ -50,5 +50,21 @@
   {
     "id": 12,
     "name": "Express"
+  },
+  {
+    "id": 13,
+    "name": "Arquitetura MSC"
+  },
+  {
+    "id": 14,
+    "name": "Chai"
+  },
+  {
+    "id": 15,
+    "name": "Mocha"
+  },
+  {
+    "id": 16,
+    "name": "Sinon"
   }
 ]

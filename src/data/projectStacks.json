@@ -282,5 +282,37 @@
   {
     "projectId": 20,
     "stackId": 12
+  },
+  {
+    "projectId": 21,
+    "stackId": 2
+  },
+  {
+    "projectId": 21,
+    "stackId": 10
+  },
+  {
+    "projectId": 21,
+    "stackId": 11
+  },
+  {
+    "projectId": 21,
+    "stackId": 12
+  },
+  {
+    "projectId": 21,
+    "stackId": 13
+  },
+  {
+    "projectId": 21,
+    "stackId": 14
+  },
+  {
+    "projectId": 21,
+    "stackId": 15
+  },
+  {
+    "projectId": 21,
+    "stackId": 16
   }
 ]
