@@ -314,5 +314,21 @@
   {
     "projectId": 21,
     "stackId": 16
+  },
+  {
+    "projectId": 21,
+    "stackId": 2
+  },
+  {
+    "projectId": 21,
+    "stackId": 12
+  },
+  {
+    "projectId": 21,
+    "stackId": 13
+  },
+  {
+    "projectId": 21,
+    "stackId": 17
   }
 ]

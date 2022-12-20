@@ -66,5 +66,9 @@
   {
     "id": 16,
     "name": "Sinon"
+  },
+  {
+    "id": 17,
+    "name": "Sequelize"
   }
 ]
