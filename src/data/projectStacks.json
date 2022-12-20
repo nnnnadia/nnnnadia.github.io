@@ -274,5 +274,13 @@
   {
     "projectId": 19,
     "stackId": 11
+  },
+  {
+    "projectId": 20,
+    "stackId": 2
+  },
+  {
+    "projectId": 20,
+    "stackId": 12
   }
 ]
