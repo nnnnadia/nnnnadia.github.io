@@ -155,11 +155,11 @@
   {
     "id": 17,
     "title": "Docker To-Do List",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Containerização e orquestramento de uma aplicação full stack.",
     "conclusionDate": "08/10/2022",
-    "printUrl": "",
+    "printUrl": "https://www.docker.com/wp-content/uploads/2021/09/Docker-build.png",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-docker-todo-list"
   },
   {
     "id": 18,
@@ -168,7 +168,7 @@
     "conclusionDate": "08/17/2022",
     "printUrl": "",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-all-for-one"
   },
   {
     "id": 19,
@@ -177,7 +177,7 @@
     "conclusionDate": "08/25/2022",
     "printUrl": "",
     "projectUrl": "",
-    "repositoryUrl": ""
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-one-for-all"
   },
   {
     "id": 20,

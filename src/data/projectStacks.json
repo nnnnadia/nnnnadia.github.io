@@ -254,5 +254,25 @@
   {
     "projectId": 16,
     "stackId": 8
+  },
+  {
+    "projectId": 17,
+    "stackId": 9
+  },
+  {
+    "projectId": 18,
+    "stackId": 10
+  },
+  {
+    "projectId": 18,
+    "stackId": 11
+  },
+  {
+    "projectId": 19,
+    "stackId": 10
+  },
+  {
+    "projectId": 19,
+    "stackId": 11
   }
 ]

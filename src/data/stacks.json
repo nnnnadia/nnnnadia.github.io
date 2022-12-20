@@ -34,5 +34,17 @@
   {
     "id": 8,
     "name": "Material UI"
+  },
+  {
+    "id": 9,
+    "name": "Docker"
+  },
+  {
+    "id": 10,
+    "name": "SQL"
+  },
+  {
+    "id": 11,
+    "name": "MySQL"
   }
 ]
