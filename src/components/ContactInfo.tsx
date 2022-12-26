@@ -46,7 +46,7 @@ export default function ContactInfo() {
             textAlign="center"
             gutterBottom
           >
-            Developer Full Stack
+            Full Stack Developer
           </Typography>
         </Box>
         <ButtonGroup variant="text" >

@@ -12,7 +12,6 @@ export default function AboutMe() {
       marginTop={window.innerHeight * 0.035}
     >
       <ContactInfo />
-      <PersonalInfo />
     </Stack>
   );
 }
