@@ -182,11 +182,11 @@
   {
     "id": 20,
     "title": "Talker Manager",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu accumsan urna. Quisque massa tortor, congue vitae mollis quis, accumsan et lacus.",
+    "description": "Aplicação back end de cadastro de talkers (palestrantes) em que é possível cadastrar, visualizar, pesquisar, editar e excluir informações.",
     "conclusionDate": "09/05/2022",
-    "printUrl": "",
-    "projectUrl": "",
-    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-talker-manager/tree/main"
+    "printUrl": "https://github.com/nnnnadia/projeto-trybe-talker-manager/blob/main/talker-manager-print.png?raw=true",
+    "projectUrl": "https://nnnnadia.github.io/projeto-trybe-talker-manager/",
+    "repositoryUrl": "https://github.com/nnnnadia/projeto-trybe-talker-manager"
   },
   {
     "id": 21,
